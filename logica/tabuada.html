@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+
+    }
+
+    //var multiplicador = 1;
+    var multiplicado = 8;
+
+    //while(multiplicador <= 10) {
+    //    mostra(multiplicado * multiplicador);
+    //    multiplicador = multiplicador + 1;
+    //}
+
+    for(var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+        
+        mostra(multiplicado * multiplicador);
+    }
+    mostra("Done!")
+</script>

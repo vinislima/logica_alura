@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var begin = 30;
+
+    while(begin <= 40) {
+    
+        if(begin == 33) {
+            begin = begin + 1;
+        } 
+        
+        if(begin == 37) {
+            begin = begin + 1;
+        }
+        else {
+            mostra (begin);
+            begin = begin + 1;
+        }
+        
+    }
+    
+    mostra("Todos os números pares de 30 a 40");
+
+</script>

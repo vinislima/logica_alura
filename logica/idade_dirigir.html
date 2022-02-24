@@ -1,0 +1,25 @@
+<meta charset="UFT-8">
+
+<script>
+
+    function pulaLinha() {
+        document.write("<br>");
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var idade = parseInt(prompt("Qual a sua idade?"));
+    var temCarteira = prompt("Tem habilitação? S/N");
+
+    if(idade >= 18 && temCarteira == "S") {
+        mostra("Boa, pode dirigir!");
+    
+    } else {
+        mostra("Pare! Nada de volante para você!");
+    }
+
+</script>
